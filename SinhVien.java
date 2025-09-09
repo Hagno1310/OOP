@@ -7,6 +7,7 @@ public class SinhVien {
 
     private static int count = 0;
 
+    // Getter count
     public static int getCount() {
         return count;
     }
@@ -19,6 +20,7 @@ public class SinhVien {
         count++;
     }
 
+    // Thông tin sinh viên
     public String Bio() {
         return "MaSV: " + MaSV + ", HoTen: " + HoTen + ", Tuoi: " + Tuoi;
     }   
